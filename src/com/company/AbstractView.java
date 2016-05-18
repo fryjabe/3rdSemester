@@ -58,7 +58,7 @@ public class AbstractView extends Application {
 
     public void createTableWithChildren()
     {
-        tableView = new TableView();
+
 
         TableColumn nameCol = new TableColumn("Name");
         nameCol.setCellValueFactory(new PropertyValueFactory<Child, String>("name"));
@@ -127,8 +127,8 @@ public class AbstractView extends Application {
 
         incrementByOneButton.setOnAction(event1 -> {
 
-            createTableWithChildren();
-         //   incrementByOneButtonAction();
+
+         incrementByOneButtonAction();
         });
 
         decrementByOneButton.setOnAction(event1 -> {
@@ -161,6 +161,7 @@ public class AbstractView extends Application {
         availabilityViewStage.show();
         createHourLabels();
         createTableView();
+        createTableWithChildren();
 
     }
 
