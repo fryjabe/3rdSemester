@@ -173,7 +173,7 @@ public class DatabaseModel {
         ArrayList<Child> children = new ArrayList<>();
 
         try {
-            String sql = "SELECT * FROM children";
+            String sql = "SELECT * FROM Children";
 
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             //preparedStatement.setInt(1, childId);
