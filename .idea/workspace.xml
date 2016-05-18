@@ -2,15 +2,205 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ae2672-5a2b-4d6b-ac6a-d1f62332a1a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/3rdSemester/com/company/AbstractView.class" afterPath="$PROJECT_DIR$/out/production/3rdSemester/com/company/AbstractView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/3rdSemester/com/company/Model/DatabaseModel.class" afterPath="$PROJECT_DIR$/out/production/3rdSemester/com/company/Model/DatabaseModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/mysql-connector-java-5.1.29-bin.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/CHANGES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/COPYING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/EXCEPTIONS-CONNECTOR-J" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/debug/mysql-connector-java-5.0.8-bin-g.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/docs/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/docs/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/docs/connector-j.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/docs/connector-j.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/AssertionFailedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Blob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/BlobFromLocator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Buffer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/CachedResultSetMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/CallableStatement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/CharsetMapping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Charsets.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Clob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/CommunicationsException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/CompressedInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Connection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ConnectionFeatureNotAvailableException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ConnectionProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ConnectionPropertiesTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/CursorRowProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/DatabaseMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/DocsConnectionPropsHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Driver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/EscapeProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/EscapeProcessorResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/EscapeTokenizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ExportControlled.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Field.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/LicenseConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/LoadBalancingConnectionProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/LocalizedErrorMessages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Messages.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/MiniAdmin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/MysqlDataTruncation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/MysqlDefs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/MysqlErrorNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/MysqlIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/MysqlParameterMetadata.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/MysqlSavepoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/NamedPipeSocketFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/NonRegisteringDriver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/NonRegisteringReplicationDriver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/NotImplemented.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/NotUpdatable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/OperationNotSupportedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/OutputStreamWatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/PacketTooBigException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/PingTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/PreparedStatement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ReplicationConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ReplicationDriver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ResultSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ResultSetMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/RowData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/RowDataDynamic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/RowDataStatic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/SQLError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Security.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/ServerPreparedStatement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/SingleByteCharsetConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/SocketFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/StandardSocketFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Statement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/StringUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/TimeUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/UpdatableResultSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/WatchableOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/WatchableWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/WriterWatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/configs/3-0-Compat.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/configs/clusterBase.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/configs/coldFusion.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/configs/fullDebug.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/configs/maxPerformance.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/configs/solarisMaxPerformance.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLDataException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLIntegrityConstraintViolationException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLInvalidAuthorizationSpecException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLNonTransientConnectionException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLNonTransientException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLSyntaxErrorException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLTimeoutException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLTransactionRollbackException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLTransientConnectionException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/exceptions/MySQLTransientException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/integration/c3p0/MysqlConnectionTester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/integration/jboss/MysqlValidConnectionChecker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/CallableStatementWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/ConnectionWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlConnectionPoolDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlDataSourceFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlPooledConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlXAConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlXADataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlXAException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/MysqlXid.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/PreparedStatementWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/StatementWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/SuspendableXAConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/jdbc2/optional/WrapperBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/CommonsLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/Jdk14Logger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/Log.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/Log4JLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/LogFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/LogUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/NullLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log/StandardLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/profiler/ProfileEventSink.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/profiler/ProfilerEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/trace/Tracer.aj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/BaseBugReport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/ErrorMappingsDocGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/LRUCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/PropertiesDocGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/ReadAheadInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/ResultSetUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/ServerController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/TimezoneDump.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/com/mysql/jdbc/util/VersionFSHierarchyMaker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/doc/sources/connPropsToDocbook.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/doc/sources/errorMapToDocbook.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/doc/sources/placeholder.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/Commons-Logging-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/LICENSE-AspectJ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/ant-contrib.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/aspectjrt.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/aspectjtools.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/c3p0-0.9.1-pre6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/c3p0-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/commons-logging.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/jboss-common-jdbc-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/jboss-lgpl.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/jdbc2_0-stdext.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/jta-spec1_0_1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/junit.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/lib/log4j-1.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/org/gjt/mm/mysql/Driver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/BaseTestCase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/perf/BasePerfTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/perf/LoadStorePerfTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/perf/RetrievalPerfTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/AppletRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/BlobRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/CachedRowsetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/CallableStatementRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/ConnectionRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/DataSourceRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/EscapeProcessorRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/MetaDataRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/MicroPerformanceRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/NumbersRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/PooledConnectionRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/ResultSetRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/StatementRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/StressRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/StringRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/regression/SubqueriesRegressionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/BlobTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/CallableStatementTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/CharsetTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/ConnectionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/DataSourceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/DateTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/EscapeProcessingTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/MetadataTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/MiniAdminTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/NumbersTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/ResultSetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/SSLTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/ServerControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/SimpleTransformer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/StatementsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/TransactionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/TraversalTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/UpdatabilityTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/XATest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/simple/tb2-data.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/ssl-test-certs/ca-cert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/ssl-test-certs/ca-key.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/ssl-test-certs/server-cert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/ssl-test-certs/server-key.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/ssl-test-certs/server-req.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/src/testsuite/ssl-test-certs/test-cert-store" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3rdSemester.iml" afterPath="$PROJECT_DIR$/3rdSemester.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/AbstractView.java" afterPath="$PROJECT_DIR$/src/com/company/AbstractView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java" afterPath="$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java" />
     </list>
     <ignored path="3rdSemesterPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,12 +222,12 @@
     <favorites_list name="3rdSemesterPro" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file leaf-file-name="3rdSemester.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3rdSemester.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,17 +256,17 @@
       <file leaf-file-name="DatabaseModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="490">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
-                <marker date="1463582466974" expanded="true" signature="873:931" ph="INSERT INTO useraccount... " />
-                <marker date="1463582466974" expanded="true" signature="1860:1921" ph="INSERT INTO useraccount... " />
-                <marker date="1463582466974" expanded="true" signature="2921:2984" ph="INSERT INTO useraccount... " />
-                <marker date="1463582466974" expanded="true" signature="3908:3962" ph="SELECT * FRO... children" />
-                <marker date="1463582466974" expanded="true" signature="4685:4741" ph="SELECT * FRO... presidents" />
-                <marker date="1463582466974" expanded="true" signature="5493:5549" ph="SELECT * FRO... therapists" />
-                <marker date="1463582466974" expanded="true" signature="6330:6352" ph="SELECT * FRO... children" />
-                <marker date="1463582466974" expanded="true" signature="7235:7259" ph="SELECT * FRO... therapists" />
+                <marker date="1463582820895" expanded="true" signature="873:931" ph="INSERT INTO useraccount... " />
+                <marker date="1463582820895" expanded="true" signature="1860:1921" ph="INSERT INTO useraccount... " />
+                <marker date="1463582820895" expanded="true" signature="2921:2984" ph="INSERT INTO useraccount... " />
+                <marker date="1463582820895" expanded="true" signature="3908:3962" ph="SELECT * FRO... children" />
+                <marker date="1463582820895" expanded="true" signature="4685:4741" ph="SELECT * FRO... presidents" />
+                <marker date="1463582820895" expanded="true" signature="5493:5549" ph="SELECT * FRO... therapists" />
+                <marker date="1463582820895" expanded="true" signature="6330:6352" ph="SELECT * FRO... children" />
+                <marker date="1463582820895" expanded="true" signature="7235:7259" ph="SELECT * FRO... therapists" />
               </folding>
             </state>
           </provider>
@@ -144,8 +334,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,13 +396,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Resources/mysql-connector-java-5.1.29-bin.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25461456" />
@@ -222,7 +412,7 @@
       <recent name="C:\Users\quena\IdeaProjects\SWC\3rdSemesterPro\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LogIn">
+  <component name="RunManager" selected="Application.AbstractView">
     <configuration default="false" name="AbstractView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -260,6 +450,12 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="3rdSemester" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="mysql-connector-java-5.0.8-bin.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/Resources/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar" />
       <envs />
       <method />
     </configuration>
@@ -477,6 +673,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -642,6 +839,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -657,14 +860,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.AbstractView" />
       <item index="1" class="java.lang.String" itemvalue="Application.LogIn" />
+      <item index="2" class="java.lang.String" itemvalue="JAR Application.mysql-connector-java-5.0.8-bin.jar" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.LogIn" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AbstractView" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.AbstractView" />
+        <item index="1" class="java.lang.String" itemvalue="JAR Application.mysql-connector-java-5.0.8-bin.jar" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LogIn" />
       </list>
     </recent_temporary>
   </component>
@@ -678,42 +883,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463582001096</updated>
-      <workItem from="1463582005027" duration="684000" />
+      <workItem from="1463582005027" duration="1077000" />
+      <workItem from="1463583234547" duration="380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="684000" />
+    <option name="totallyTimeSpent" value="1457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3226" height="1766" extended-state="6" />
-    <editor active="false" />
+    <frame x="-13" y="-13" width="3226" height="1766" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935718" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -730,8 +936,49 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/3rdSemester.iml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractView.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <marker date="1463582820895" expanded="true" signature="873:931" ph="INSERT INTO useraccount... " />
+            <marker date="1463582820895" expanded="true" signature="1860:1921" ph="INSERT INTO useraccount... " />
+            <marker date="1463582820895" expanded="true" signature="2921:2984" ph="INSERT INTO useraccount... " />
+            <marker date="1463582820895" expanded="true" signature="3908:3962" ph="SELECT * FRO... children" />
+            <marker date="1463582820895" expanded="true" signature="4685:4741" ph="SELECT * FRO... presidents" />
+            <marker date="1463582820895" expanded="true" signature="5493:5549" ph="SELECT * FRO... therapists" />
+            <marker date="1463582820895" expanded="true" signature="6330:6352" ph="SELECT * FRO... children" />
+            <marker date="1463582820895" expanded="true" signature="7235:7259" ph="SELECT * FRO... therapists" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3rdSemester.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -762,17 +1009,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="490">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <marker date="1463582466974" expanded="true" signature="873:931" ph="INSERT INTO useraccount... " />
-            <marker date="1463582466974" expanded="true" signature="1860:1921" ph="INSERT INTO useraccount... " />
-            <marker date="1463582466974" expanded="true" signature="2921:2984" ph="INSERT INTO useraccount... " />
-            <marker date="1463582466974" expanded="true" signature="3908:3962" ph="SELECT * FRO... children" />
-            <marker date="1463582466974" expanded="true" signature="4685:4741" ph="SELECT * FRO... presidents" />
-            <marker date="1463582466974" expanded="true" signature="5493:5549" ph="SELECT * FRO... therapists" />
-            <marker date="1463582466974" expanded="true" signature="6330:6352" ph="SELECT * FRO... children" />
-            <marker date="1463582466974" expanded="true" signature="7235:7259" ph="SELECT * FRO... therapists" />
+            <marker date="1463582820895" expanded="true" signature="873:931" ph="INSERT INTO useraccount... " />
+            <marker date="1463582820895" expanded="true" signature="1860:1921" ph="INSERT INTO useraccount... " />
+            <marker date="1463582820895" expanded="true" signature="2921:2984" ph="INSERT INTO useraccount... " />
+            <marker date="1463582820895" expanded="true" signature="3908:3962" ph="SELECT * FRO... children" />
+            <marker date="1463582820895" expanded="true" signature="4685:4741" ph="SELECT * FRO... presidents" />
+            <marker date="1463582820895" expanded="true" signature="5493:5549" ph="SELECT * FRO... therapists" />
+            <marker date="1463582820895" expanded="true" signature="6330:6352" ph="SELECT * FRO... children" />
+            <marker date="1463582820895" expanded="true" signature="7235:7259" ph="SELECT * FRO... therapists" />
           </folding>
         </state>
       </provider>
@@ -842,7 +1089,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.0</last-edited>
+          <last-edited>mysql-connector-java-5.1.29-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
