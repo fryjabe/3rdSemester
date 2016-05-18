@@ -67,7 +67,7 @@ public class AbstractView extends Application {
         surnameCol.setCellValueFactory(new PropertyValueFactory<Child, String>("surname"));
 
         TableColumn telCol = new TableColumn("Tel.");
-        telCol.setCellValueFactory(new PropertyValueFactory<Child, Integer>("hourseWorked"));
+        telCol.setCellValueFactory(new PropertyValueFactory<Child, Integer>("houseWorked"));
 
 
         tableView.getColumns().setAll(nameCol, surnameCol, telCol);
@@ -85,8 +85,6 @@ public class AbstractView extends Application {
         childrenList = databaseModel.getChildren();
         ObservableList<Child> childrenObservableList = FXCollections.observableList(childrenList);
         tableView.setItems(childrenObservableList);
-
-
 
     }
 
