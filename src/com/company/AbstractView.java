@@ -9,19 +9,16 @@ import javafx.geometry.VPos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
-
 import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-/**
- * Created by Grzegorz on 2015-11-28.
- */
+
+
 public class AbstractView extends Application {
 
 
@@ -92,17 +89,6 @@ public class AbstractView extends Application {
         });
 
 
-
-
-
-
-
-
-
-
-
-
-
         createLabels();  // CREATING LABELS AND SETTING THEM TO GRID AT ROW 1 POSITIONS 1-7
         createButtons();
 
@@ -124,13 +110,10 @@ public class AbstractView extends Application {
         availabilityViewScene = new Scene(borderPane, 1050, 600);
 
 
-
-
         availabilityViewStage.setScene(availabilityViewScene);
         availabilityViewStage.show();
         createHourLabels();
         createTableView();
-
 
     }
 
@@ -156,6 +139,7 @@ public class AbstractView extends Application {
                 button.setMaxHeight(Double.MAX_VALUE);
                 button.setId(id);
                 Date sqlDate = Date.valueOf(dates); // asigning a date of sql type Date
+
                 // String shiftType = shiftTypes[j].toString();
               /*  boolean booked = availabilityController.ifAvailable(sqlDate, shiftTypes[j].toString(), loginController.passLoggedEmployee().getEmpId());
 
