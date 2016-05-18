@@ -1,6 +1,7 @@
 package com.company;
 
 
+import com.company.Model.Child;
 import javafx.application.Application;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
@@ -9,7 +10,9 @@ import javafx.geometry.VPos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import java.sql.*;
@@ -44,6 +47,30 @@ public class AbstractView extends Application {
     BorderPane borderPane;
 
     int weekOfYear;
+
+    public void createTableWithChildren()
+    {
+        tableView = new TableView();
+
+        TableColumn nameCol = new TableColumn("Name");
+        nameCol.setCellValueFactory(new PropertyValueFactory<Child, String>("name"));
+
+        TableColumn dateCol = new TableColumn("Surname");
+        dateCol.setCellValueFactory(new PropertyValueFactory<Child, String>("surname"));
+
+        TableColumn hourseCol = new TableColumn("Tel.");
+        hourseCol.setCellValueFactory(new PropertyValueFactory<Child, Integer>("hourseWorked"));
+
+
+        tableView.getColumns().setAll(nameCol, dateCol, hourseCol);
+
+        //tableView.setPrefWidth(300);
+        tableView.setMaxWidth(428);
+
+        tableView.setPrefHeight(300);
+
+        tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+    }
 
     public void createAvailabilityView(){
 
