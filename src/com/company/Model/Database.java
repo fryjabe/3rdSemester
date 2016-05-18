@@ -4,9 +4,13 @@ import java.sql.*;
 import java.util.ArrayList;
 
 /**
- * Created by Kuba on 2016-05-08.
+ * Created by Kuba, Gregory on 2016-05-08.
+ *
+ * references:
+ * https://www.youtube.com/watch?v=QsBQnFUx388
+ *
  */
-public class DatabaseModel {
+public class Database {
 
     private Connection conn;
 
@@ -14,7 +18,7 @@ public class DatabaseModel {
     private PreparedStatement statement;
 
     //empty reference - doesnt unneceserely use resources
-    private static DatabaseModel dbInstance= null;
+    private static Database dbInstance= null;
 
     //object is to be synchronized    private static Object mutex= new Object();
     private static Object mutex = new Object();
@@ -23,7 +27,7 @@ public class DatabaseModel {
     /**
      * Constructor
      */
-    private DatabaseModel() {
+    private Database() {
         //comparing hashcodes of class instance is to help
         //recognize valiation of Singleton principles
 
@@ -42,10 +46,10 @@ public class DatabaseModel {
 
 
 
-    public static DatabaseModel getInstance(){
+    public static Database getInstance(){
         if(dbInstance==null){
             synchronized (mutex){
-                if(dbInstance==null) dbInstance= new DatabaseModel();
+                if(dbInstance==null) dbInstance= new Database();
             }
         }
         return dbInstance;

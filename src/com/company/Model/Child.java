@@ -4,6 +4,7 @@ package com.company.Model;
  * Created by Kuba on 2016-05-08.
  */
 public class Child {
+
    private int childId;
    private String name;
    private String surname;
@@ -61,6 +62,7 @@ public class Child {
     public String getDisabilities() {
         return disabilities;
     }
+
 
     public Child(int childId, String name, String surname, String birthdate, String address, String email, String password, String mobile1, String mobile2, String disabilities) {
 

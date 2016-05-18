@@ -1,4 +1,4 @@
-package com.company;
+package com.company.View;
 
 import com.company.Controler.LoginController;
 import javafx.application.Application;
@@ -38,7 +38,7 @@ public class LogInView extends Application {
 
 
     //Greg
-    LoginController loginController = new LoginController();
+    private LoginController loginController = new LoginController();
 
 
 
@@ -101,9 +101,7 @@ public class LogInView extends Application {
 
         loginButton.setOnAction(event -> {
 
-            //controller
-
-
+            //login ctrl - gllobal scope
 
         });
 

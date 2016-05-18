@@ -1,7 +1,5 @@
-package com.company;
+package com.company.View;
 import javafx.scene.control.Button;
-
-import java.awt.*;
 
 /**
  * Created by Kuba on 2016-05-08.

@@ -1,8 +1,8 @@
-package com.company;
+package com.company.View;
 
 
 import com.company.Model.Child;
-import com.company.Model.DatabaseModel;
+import com.company.Model.Database;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -25,7 +25,7 @@ import java.util.Calendar;
 
 
 
-public class AbstractView extends Application {
+public abstract class AbstractView extends Application {
 
 
     public void hideWindow(){
@@ -41,7 +41,7 @@ public class AbstractView extends Application {
     ArrayList<Button> buttons = new ArrayList<>();
 
     ArrayList<Child> childrenList;
-    DatabaseModel databaseModel;
+    Database database;
 
     HBox hBox;
     Label weekLabel;
@@ -81,8 +81,8 @@ public class AbstractView extends Application {
 
         childrenList = new ArrayList<>();
 
-        databaseModel = DatabaseModel.getInstance();
-        childrenList = databaseModel.getChildren();
+        database = Database.getInstance();
+        childrenList = database.getChildren();
         ObservableList<Child> childrenObservableList = FXCollections.observableList(childrenList);
         tableView.setItems(childrenObservableList);
 
