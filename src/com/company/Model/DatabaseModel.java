@@ -15,9 +15,9 @@ public class DatabaseModel {
 
     public DatabaseModel() {
 
-        String DB_URL = "jdbc:mysql://localhost/";  // dont forget to insert
-        String USER = "root";
-        String PASS = "root";
+        String DB_URL = "jdbc:mysql://sql2.freesqldatabase.com:3306/sql7118051";  // dont forget to insert
+        String USER = "sql7118051";
+        String PASS = "EY414dsxHW";
         try {
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
         } catch (SQLException e) {

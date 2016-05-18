@@ -1,8 +1,5 @@
 package com.company;
-
-import javafx.scene.control.*;
 import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
 
 import java.awt.*;
 
@@ -15,20 +12,18 @@ public class TherapistView extends AbstractView {
         addBehaviour();
     }
 
-    public void addBehaviour(){
+    public void addBehaviour() {
         try {
+
             start(availabilityViewStage);
+
         } catch (Exception e) {
+
             e.printStackTrace();
         }
-        javafx.scene.control.Button button1= new Button("elo");
+        Button button1 = new Button("elo");
 
     }
 
 
-//    @Override
-//    public void setBox(VBox box) {
-//        super.setBox(box);
-//        box.getChildren().addAll(button1);
-//    }
 }

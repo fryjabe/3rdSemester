@@ -4,16 +4,16 @@ package com.company.Model;
  * Created by Kuba on 2016-05-08.
  */
 public class Child {
-    int childId;
-    String name;
-    String surname;
-    String birthdate;
-    String address;
-    String email;
-    String password;
-    String mobile1;
-    String mobile2;
-    String disabilities;
+   private int childId;
+   private String name;
+   private String surname;
+   private String birthdate;
+   private String address;
+   private String email;
+   private String password;
+   private String mobile1;
+   private String mobile2;
+   private String disabilities;
 
     public Child(int childId, String name) {
         this.childId = childId;
