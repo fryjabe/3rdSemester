@@ -81,7 +81,7 @@ public class AbstractView extends Application {
 
         childrenList = new ArrayList<>();
 
-        databaseModel = new DatabaseModel();
+        databaseModel = DatabaseModel.getInstance();
         childrenList = databaseModel.getChildren();
         ObservableList<Child> childrenObservableList = FXCollections.observableList(childrenList);
         tableView.setItems(childrenObservableList);
@@ -351,8 +351,6 @@ public class AbstractView extends Application {
     public void createTableView(){
 
         borderPane.setLeft(tableView);
-
-
 
     }
 

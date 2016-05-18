@@ -1,9 +1,6 @@
 package com.company.Model;
 
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 
 /**
@@ -11,19 +8,55 @@ import java.util.ArrayList;
  */
 public class DatabaseModel {
 
-    private java.sql.Connection conn = null;
+    private Connection conn;
 
-    public DatabaseModel() {
+    // how can we re-use that?
+    private PreparedStatement statement;
 
-        String DB_URL = "jdbc:mysql://sql7.freesqldatabase.com:3306/sql7118051";  // dont forget to insert
+    //empty reference - doesnt unneceserely use resources
+    private static DatabaseModel dbInstance= null;
+
+    //object is to be synchronized    private static Object mutex= new Object();
+    private static Object mutex = new Object();
+
+
+    /**
+     * Constructor
+     */
+    private DatabaseModel() {
+        //comparing hashcodes of class instance is to help
+        //recognize valiation of Singleton principles
+
+        String DB_URL = "jdbc:mysql://sql7.freesqldatabase.com:3306/sql7118051";
         String USER = "sql7118051";
         String PASS = "EY414dsxHW";
+
         try {
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
+
         } catch (SQLException e) {
+
             e.printStackTrace();
         }
     }
+
+
+
+    public static DatabaseModel getInstance(){
+        if(dbInstance==null){
+            synchronized (mutex){
+                if(dbInstance==null) dbInstance= new DatabaseModel();
+            }
+        }
+        return dbInstance;
+    }
+
+
+    /**
+     *  Queries *******************************************************************************************************
+     */
+
+
 
     public void addNewPresident( String name, String surname, String birthdate, String address, String email, String password,
                                  String mobile) {
@@ -214,6 +247,8 @@ public class DatabaseModel {
         }
         return therapists;
     }
+
+
 
 
 

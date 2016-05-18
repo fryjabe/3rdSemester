@@ -1,0 +1,93 @@
+package com.company.Model;
+
+import java.sql.*;
+
+
+/**
+ * Created by Grzegorz Goraj on 18-05-2016.
+ * email: greg.goray@gmail.com
+ *
+ * References:
+ * http://www.journaldev.com/171/thread-safety-in-java-singleton-classes-with-example-code
+ * http://www.journaldev.com/1061/java-synchronization-and-thread-safety-tutorial-with-examples
+ * http://rdeshapriya.com/a-singleton-java-class-for-mysql-db-connection/
+ */
+public class DatabaseModel3 {
+
+    private Connection conn;
+
+    // how can we re-use that?
+    private PreparedStatement statement;
+
+    //empty reference - doesnt unneceserely use resources
+    private static DatabaseModel3 dbInstance= null;
+
+    //object is to be synchronized    private static Object mutex= new Object();
+    private static Object mutex = new Object();
+
+
+    /**
+     * Constructor
+     */
+    private DatabaseModel3() {
+        //comparing hashcodes of class instance is to help
+        //recognize valiation of Singleton principles
+
+        String DB_URL = "jdbc:mysql://sql7.freesqldatabase.com:3306/sql7118051";
+        String USER = "sql7118051";
+        String PASS = "EY414dsxHW";
+
+        try {
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+
+        } catch (SQLException e) {
+
+            e.printStackTrace();
+        }
+    }
+
+
+
+        public static DatabaseModel3 getInstance(){
+            if(dbInstance==null){
+                synchronized (mutex){
+                    if(dbInstance==null) dbInstance= new DatabaseModel3();
+                }
+            }
+            return dbInstance;
+        }
+
+
+
+
+
+    /**
+     *
+     * @param query String The query to be executed
+     * @return a ResultSet object containing the results or null if not available
+     * @throws SQLException
+     */
+    public ResultSet query(String query) throws SQLException{
+
+        statement = (PreparedStatement) dbInstance.conn.createStatement();
+        ResultSet resultSet = statement.executeQuery(query);
+        return resultSet;
+    }
+
+
+    /**
+     * @desc Method to insert data to a table
+     * @param insertQuery String The Insert query
+     * @return boolean
+     * @throws SQLException
+     */
+    public int insert(String insertQuery) throws SQLException {
+
+        statement = (PreparedStatement) dbInstance.conn.createStatement();
+        int result = statement.executeUpdate(insertQuery);
+        return result;
+
+    }
+
+
+}
