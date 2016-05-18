@@ -2,7 +2,10 @@ package com.company;
 
 
 import com.company.Model.Child;
+import com.company.Model.DatabaseModel;
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -37,6 +40,9 @@ public class AbstractView extends Application {
     ArrayList<Label> labels= new ArrayList<>();
     ArrayList<Button> buttons = new ArrayList<>();
 
+    ArrayList<Child> childrenList;
+    DatabaseModel databaseModel;
+
     HBox hBox;
     Label weekLabel;
     Button incrementByOneButton;
@@ -48,6 +54,8 @@ public class AbstractView extends Application {
 
     int weekOfYear;
 
+    Button whatever;
+
     public void createTableWithChildren()
     {
         tableView = new TableView();
@@ -55,21 +63,31 @@ public class AbstractView extends Application {
         TableColumn nameCol = new TableColumn("Name");
         nameCol.setCellValueFactory(new PropertyValueFactory<Child, String>("name"));
 
-        TableColumn dateCol = new TableColumn("Surname");
-        dateCol.setCellValueFactory(new PropertyValueFactory<Child, String>("surname"));
+        TableColumn surnameCol = new TableColumn("Surname");
+        surnameCol.setCellValueFactory(new PropertyValueFactory<Child, String>("surname"));
 
-        TableColumn hourseCol = new TableColumn("Tel.");
-        hourseCol.setCellValueFactory(new PropertyValueFactory<Child, Integer>("hourseWorked"));
+        TableColumn telCol = new TableColumn("Tel.");
+        telCol.setCellValueFactory(new PropertyValueFactory<Child, Integer>("hourseWorked"));
 
 
-        tableView.getColumns().setAll(nameCol, dateCol, hourseCol);
+        tableView.getColumns().setAll(nameCol, surnameCol, telCol);
 
-        //tableView.setPrefWidth(300);
+
         tableView.setMaxWidth(428);
 
         tableView.setPrefHeight(300);
 
         tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+
+        childrenList = new ArrayList<>();
+
+        databaseModel = new DatabaseModel();
+        childrenList = databaseModel.getChildren();
+        ObservableList<Child> childrenObservableList = FXCollections.observableList(childrenList);
+        tableView.setItems(childrenObservableList);
+
+
+
     }
 
     public void createAvailabilityView(){
@@ -108,7 +126,9 @@ public class AbstractView extends Application {
         decrementByOneButton.setAlignment(Pos.CENTER_RIGHT);
 
         incrementByOneButton.setOnAction(event1 -> {
-            incrementByOneButtonAction();
+
+            createTableWithChildren();
+         //   incrementByOneButtonAction();
         });
 
         decrementByOneButton.setOnAction(event1 -> {

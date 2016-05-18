@@ -15,7 +15,7 @@ public class DatabaseModel {
 
     public DatabaseModel() {
 
-        String DB_URL = "jdbc:mysql://sql2.freesqldatabase.com:3306/sql7118051";  // dont forget to insert
+        String DB_URL = "jdbc:mysql://sql7.freesqldatabase.com:3306/sql7118051";  // dont forget to insert
         String USER = "sql7118051";
         String PASS = "EY414dsxHW";
         try {
