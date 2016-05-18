@@ -33,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AbstractView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4515">
+            <state relative-caret-position="1785">
               <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,19 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Child.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Model/Child.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseModel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatabaseModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4795">
+            <state relative-caret-position="420">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1463572930340" expanded="true" signature="831:889" placeholder="INSERT INTO useraccount... " />
@@ -289,7 +276,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/RedNetworkAs" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/1_YEAR_PROJECT_JAVA" />
   </component>
   <component name="RunManager" selected="Application.AbstractView">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -759,16 +746,16 @@
       <workItem from="1463054476463" duration="1247000" />
       <workItem from="1463420614325" duration="1411000" />
       <workItem from="1463572080367" duration="18000" />
-      <workItem from="1463572945302" duration="3582000" />
+      <workItem from="1463572945302" duration="4128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17641000" />
+    <option name="totallyTimeSpent" value="18187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3226" height="1766" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -778,11 +765,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15573227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935718" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15573227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20742214" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16184041" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16184041" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1311,31 +1298,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Child.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4795">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1463572930340" expanded="true" signature="831:889" placeholder="INSERT INTO useraccount... " />
-            <marker date="1463572930340" expanded="true" signature="1818:1879" placeholder="INSERT INTO useraccount... " />
-            <marker date="1463572930340" expanded="true" signature="2879:2942" placeholder="INSERT INTO useraccount... " />
-            <marker date="1463572930340" expanded="true" signature="3866:3920" placeholder="SELECT * FRO... children" />
-            <marker date="1463572930340" expanded="true" signature="4643:4699" placeholder="SELECT * FRO... presidents" />
-            <marker date="1463572930340" expanded="true" signature="5451:5507" placeholder="SELECT * FRO... therapists" />
-            <marker date="1463572930340" expanded="true" signature="6288:6310" placeholder="SELECT * FRO... children" />
-            <marker date="1463572930340" expanded="true" signature="7193:7217" placeholder="SELECT * FRO... therapists" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/TherapistView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="719">
@@ -1346,10 +1308,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AbstractView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4515">
+        <state relative-caret-position="1785">
           <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1463572930340" expanded="true" signature="831:889" placeholder="INSERT INTO useraccount... " />
+            <marker date="1463572930340" expanded="true" signature="1818:1879" placeholder="INSERT INTO useraccount... " />
+            <marker date="1463572930340" expanded="true" signature="2879:2942" placeholder="INSERT INTO useraccount... " />
+            <marker date="1463572930340" expanded="true" signature="3866:3920" placeholder="SELECT * FRO... children" />
+            <marker date="1463572930340" expanded="true" signature="4643:4699" placeholder="SELECT * FRO... presidents" />
+            <marker date="1463572930340" expanded="true" signature="5451:5507" placeholder="SELECT * FRO... therapists" />
+            <marker date="1463572930340" expanded="true" signature="6288:6310" placeholder="SELECT * FRO... children" />
+            <marker date="1463572930340" expanded="true" signature="7193:7217" placeholder="SELECT * FRO... therapists" />
           </folding>
         </state>
       </provider>
