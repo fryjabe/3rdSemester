@@ -20,6 +20,8 @@ public class Child {
         this.name = name;
     }
 
+    public void tralalallaallaal(){}
+
     public int getChildId() {
         return childId;
     }
