@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.Controler.LoginController;
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -13,9 +14,7 @@ import javafx.stage.Stage;
 /**
  * Created by Edgaras on 4/8/2016.
  */
-public class LogIn extends Application
-
-{
+public class LogInView extends Application {
 
 
     Stage mainStage = new Stage();
@@ -36,6 +35,10 @@ public class LogIn extends Application
 
     Label usernameLabel;
     Label passwordLabel;
+
+
+    //Greg
+    LoginController loginController = new LoginController();
 
 
 
@@ -96,6 +99,8 @@ public class LogIn extends Application
         });
 
         loginButton.setOnAction(event -> {
+
+            //controller
 
 
 
