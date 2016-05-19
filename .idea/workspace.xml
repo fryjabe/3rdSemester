@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ae2672-5a2b-4d6b-ac6a-d1f62332a1a8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/3rdSemester/com/company/AbstractView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/3rdSemester/com/company/Model/DatabaseModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/3rdSemester/com/company/TherapistView.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/AbstractView.java" afterPath="$PROJECT_DIR$/src/com/company/View/AbstractView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/LogInView.java" afterPath="$PROJECT_DIR$/src/com/company/View/LogInView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java" afterPath="$PROJECT_DIR$/src/com/company/Model/Database.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/TherapistView.java" afterPath="$PROJECT_DIR$/src/com/company/View/TherapistView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Controler/LoginController.java" afterPath="$PROJECT_DIR$/src/com/company/Controler/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Model/Child.java" afterPath="$PROJECT_DIR$/src/com/company/Model/Child.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Model/Database.java" afterPath="$PROJECT_DIR$/src/com/company/Model/Database.java" />
     </list>
     <ignored path="3rdSemesterPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,26 +81,26 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Model/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1610">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+            <state relative-caret-position="945">
+              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
               <folding>
-                <marker date="1463607360368" expanded="true" signature="1561:1619" ph="INSERT INTO useraccount... " />
-                <marker date="1463607360368" expanded="true" signature="2548:2609" ph="INSERT INTO useraccount... " />
-                <marker date="1463607360368" expanded="true" signature="3609:3672" ph="INSERT INTO useraccount... " />
-                <marker date="1463607360368" expanded="true" signature="4596:4650" ph="SELECT * FRO... children" />
-                <marker date="1463607360368" expanded="true" signature="5373:5429" ph="SELECT * FRO... presidents" />
-                <marker date="1463607360368" expanded="true" signature="6181:6237" ph="SELECT * FRO... therapists" />
-                <marker date="1463607360368" expanded="true" signature="7018:7040" ph="SELECT * FRO... children" />
-                <marker date="1463607360368" expanded="true" signature="7923:7947" ph="SELECT * FRO... therapists" />
+                <marker date="1463660855674" expanded="true" signature="1623:1681" ph="INSERT INTO useraccount... " />
+                <marker date="1463660855674" expanded="true" signature="2610:2671" ph="INSERT INTO useraccount... " />
+                <marker date="1463660855674" expanded="true" signature="3671:3734" ph="INSERT INTO useraccount... " />
+                <marker date="1463660855674" expanded="true" signature="4658:4712" ph="SELECT * FRO... children" />
+                <marker date="1463660855674" expanded="true" signature="5435:5491" ph="SELECT * FRO... presidents" />
+                <marker date="1463660855674" expanded="true" signature="6243:6299" ph="SELECT * FRO... therapists" />
+                <marker date="1463660855674" expanded="true" signature="7080:7102" ph="SELECT * FRO... children" />
+                <marker date="1463660855674" expanded="true" signature="7985:8009" ph="SELECT * FRO... therapists" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threadSafeConnection_Gregory" pinned="false" current-in-tab="true">
+      <file leaf-file-name="threadSafeConnection_Gregory" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resources/threadSafeConnection_Gregory">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2228">
+            <state relative-caret-position="3255">
               <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
@@ -116,11 +110,9 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Controler/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="350">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,18 +141,18 @@
         <option value="$PROJECT_DIR$/src/com/company/LogIn.java" />
         <option value="$PROJECT_DIR$/src/com/company/LogInView.java" />
         <option value="$PROJECT_DIR$/.gitattributes" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/company/Model/DatabaseModel2.java" />
         <option value="$PROJECT_DIR$/src/Resources/ThreadSafeConnection.java" />
         <option value="$PROJECT_DIR$/src/Resources/threadSafeConnection_Gregory" />
         <option value="$PROJECT_DIR$/src/com/company/Model/DatabaseModel3.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/DatabaseModel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Controler/LoginController.java" />
         <option value="$PROJECT_DIR$/src/com/company/AbstractView.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/AbstractView.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/LogInView.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Child.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Database.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Controler/LoginController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -821,16 +813,16 @@
       <option name="presentableId" value="Default" />
       <updated>1463582001096</updated>
       <workItem from="1463582005027" duration="1077000" />
-      <workItem from="1463583234547" duration="13735000" />
+      <workItem from="1463583234547" duration="17286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14812000" />
+    <option name="totallyTimeSpent" value="18363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3226" height="1766" extended-state="6" />
-    <editor active="true" />
+    <frame x="-13" y="-13" width="3226" height="1766" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -840,8 +832,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16302186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2524851" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16302186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50033134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21846847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -900,14 +892,14 @@
         <state relative-caret-position="525">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
-            <marker date="1463607360368" expanded="true" signature="1561:1619" ph="INSERT INTO useraccount... " />
-            <marker date="1463607360368" expanded="true" signature="2548:2609" ph="INSERT INTO useraccount... " />
-            <marker date="1463607360368" expanded="true" signature="3609:3672" ph="INSERT INTO useraccount... " />
-            <marker date="1463607360368" expanded="true" signature="4596:4650" ph="SELECT * FRO... children" />
-            <marker date="1463607360368" expanded="true" signature="5373:5429" ph="SELECT * FRO... presidents" />
-            <marker date="1463607360368" expanded="true" signature="6181:6237" ph="SELECT * FRO... therapists" />
-            <marker date="1463607360368" expanded="true" signature="7018:7040" ph="SELECT * FRO... children" />
-            <marker date="1463607360368" expanded="true" signature="7923:7947" ph="SELECT * FRO... therapists" />
+            <marker date="1463660855674" expanded="true" signature="1623:1681" ph="INSERT INTO useraccount... " />
+            <marker date="1463660855674" expanded="true" signature="2610:2671" ph="INSERT INTO useraccount... " />
+            <marker date="1463660855674" expanded="true" signature="3671:3734" ph="INSERT INTO useraccount... " />
+            <marker date="1463660855674" expanded="true" signature="4658:4712" ph="SELECT * FRO... children" />
+            <marker date="1463660855674" expanded="true" signature="5435:5491" ph="SELECT * FRO... presidents" />
+            <marker date="1463660855674" expanded="true" signature="6243:6299" ph="SELECT * FRO... therapists" />
+            <marker date="1463660855674" expanded="true" signature="7080:7102" ph="SELECT * FRO... children" />
+            <marker date="1463660855674" expanded="true" signature="7985:8009" ph="SELECT * FRO... therapists" />
           </folding>
         </state>
       </provider>
@@ -932,14 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -984,28 +968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Controler/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/AbstractView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/LogInView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1026,27 +992,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/threadSafeConnection_Gregory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3255">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        <state relative-caret-position="945">
+          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
           <folding>
-            <marker date="1463607360368" expanded="true" signature="1561:1619" ph="INSERT INTO useraccount... " />
-            <marker date="1463607360368" expanded="true" signature="2548:2609" ph="INSERT INTO useraccount... " />
-            <marker date="1463607360368" expanded="true" signature="3609:3672" ph="INSERT INTO useraccount... " />
-            <marker date="1463607360368" expanded="true" signature="4596:4650" ph="SELECT * FRO... children" />
-            <marker date="1463607360368" expanded="true" signature="5373:5429" ph="SELECT * FRO... presidents" />
-            <marker date="1463607360368" expanded="true" signature="6181:6237" ph="SELECT * FRO... therapists" />
-            <marker date="1463607360368" expanded="true" signature="7018:7040" ph="SELECT * FRO... children" />
-            <marker date="1463607360368" expanded="true" signature="7923:7947" ph="SELECT * FRO... therapists" />
+            <marker date="1463660855674" expanded="true" signature="1623:1681" ph="INSERT INTO useraccount... " />
+            <marker date="1463660855674" expanded="true" signature="2610:2671" ph="INSERT INTO useraccount... " />
+            <marker date="1463660855674" expanded="true" signature="3671:3734" ph="INSERT INTO useraccount... " />
+            <marker date="1463660855674" expanded="true" signature="4658:4712" ph="SELECT * FRO... children" />
+            <marker date="1463660855674" expanded="true" signature="5435:5491" ph="SELECT * FRO... presidents" />
+            <marker date="1463660855674" expanded="true" signature="6243:6299" ph="SELECT * FRO... therapists" />
+            <marker date="1463660855674" expanded="true" signature="7080:7102" ph="SELECT * FRO... children" />
+            <marker date="1463660855674" expanded="true" signature="7985:8009" ph="SELECT * FRO... therapists" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/threadSafeConnection_Gregory">
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/LogInView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2228">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Controler/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -55,12 +55,9 @@ public class Database {
         return dbInstance;
     }
 
-
     /**
      *  Queries *******************************************************************************************************
      */
-
-
 
     public void addNewPresident( String name, String surname, String birthdate, String address, String email, String password,
                                  String mobile) {
